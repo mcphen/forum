@@ -1,0 +1,307 @@
+/*
+
+ ------------------ INDEX.PHP page d'inscription : accessible qu'a la premiere connexion et creation du magasin -----------------------
+
+ */
+body
+{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   /* font-family: "Times New Roman";*/
+    font-size: 12.5px;
+    line-height: 1.5;
+    /*background: url("../img/fondsite1.jpg");
+    background-repeat: repeat-x ;
+    background-attachment: fixed;*/
+    bbackground-color: #fff;
+    color : black;
+    font-weight: 400;
+}
+
+.h1, h1 {
+    font-size: 25px;
+}
+/*
+
+ ------------------ la structure de la page header.php  -----------------------
+
+ */
+
+#lienext a:hover{
+    background-color: #ccc;
+}
+thead
+{
+    background-color:  #0c7cd5 ;
+    text-align: center;
+    color: white;
+}
+tbody
+{
+    text-align: center;
+}
+
+#tbody a
+{
+    color: black;
+}
+#tbody a:hover
+{
+    color: #0c7cd5  ;
+}#gauche
+ {
+     text-align: right;
+ }
+#droite
+{
+    text-align: left;
+    padding: 5px;
+}
+
+
+
+#table
+{
+    width: 100%;
+    margin-top: 15px;
+
+
+}
+#table th,#table td
+{
+    border-bottom: 3px solid lightgray;
+    height: 50px;
+
+}
+
+hr
+{
+    border: 2px solid black;
+}
+
+h4 a
+{
+    color : black;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+#msgempty
+{
+    text-align: center;
+    font-weight: 900;
+
+}
+h4 span
+{
+    font-size: 12px;
+}
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=file], input[type=date],textarea, select, input[type=search]
+{
+    width: 90%;
+    padding: 7px 10px;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea
+{
+
+    height: 150px;
+}
+
+
+
+#commentaires
+{
+    background-color: lightblue;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+#commentaires_auteur
+{
+    width: 200px;
+    text-align: center;
+}
+#commentaires_propos p
+{
+line-height: 1.5;
+padding : 10px
+}
+#commentaires_propos em
+{
+    font-size: 11.5px;
+    color: #4e4e4e;
+
+
+}
+
+.commentaires
+{
+    background-color: #e4e3df;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+.commentaires_auteur
+{
+    width: 200px;
+    text-align: center;
+}
+.commentaires_propos p
+{
+    line-height: 1.5;
+    padding : 10px
+}
+.auteur_propos p
+{
+    line-height: 1.2;
+    padding : 10px
+}
+.commentaires_propos em
+{
+    font-size: 11.5px;
+    color: #4e4e4e;
+
+
+}
+
+.profil
+{
+
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+.profil_auteur
+{
+    width: 200px;
+
+}
+.profil_propos p
+{
+    line-height: 1.5;
+    padding : 10px
+}
+#notif{
+    border-bottom: 1px solid gray;
+}
+.resolu
+{
+    background-color: #e5f0cb;
+    height: 40px;
+    line-height: 40px;
+    color: #3b8416;
+    box-shadow: 0 1px 1px #e5e5e5;
+    background-clip: padding-box;
+    /*padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: green;
+    opacity: 0.5;
+    font-weight: 600;
+    color: white;*/
+}
+#cercle{
+    border-radius: 50%;
+    border: 1px solid green;
+    height:10px; width:10px;
+    background: green;
+    display: inline-block;
+    margin-top: 30px;
+}
+#cercle1{
+    border-radius: 50%;
+    border: 1px solid green;
+    height:10px; width:10px;
+    background: green;
+    display: inline-block;
+
+}
+.ferme
+{
+    background-color: #e4e3df;
+    height: 40px;
+    line-height: 40px;
+    color: darkslategray;
+    box-shadow: 0 1px 1px #e5e5e5;
+    background-clip: padding-box;
+}
+#statistique
+{
+    margin-top: 25px;
+}
+#stats
+{
+
+    background:  #0c7cd5 ;
+    color:white;
+    padding:2px;
+}
+#stats_site p
+{
+    line-height: 0.25;
+
+    color: #666;
+}
+#stats_site{
+    background: #F2F4F4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer
+{
+    font-size: 10px;
+    bottom : 0;
+    margin-top: 20px;
+   text-align: center;
+
+}
+#arianeLien{
+    background : #F2F4F4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+#arianeLien ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: -40px;
+}
+
+#arianeLien li
+{
+
+}
+
+#arianeLien a
+{
+
+    color: #0c7cd5;
+    text-decoration: none;
+}
+#listeForum, #lIntervention{
+    display: block;
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+.active
+{
+    color: red;
+}
+
+#arianeLien a:hover
+{
+
+    color: #0c7cd5;
+    opacity: 0.8;
+
+}
